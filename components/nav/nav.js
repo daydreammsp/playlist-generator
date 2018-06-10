@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation'; // Version can be specified in package.json
 
 class HomeScreen extends React.Component {
@@ -11,6 +11,7 @@ class HomeScreen extends React.Component {
     );
   }
 }
+
 class SettingsScreen extends React.Component {
   render() {
     return (
@@ -20,31 +21,8 @@ class SettingsScreen extends React.Component {
     );
   }
 }
+
 export default createBottomTabNavigator({
   Home: { screen: HomeScreen },
-   Settings: { screen: SettingsScreen },
+//   Settings: { screen: SettingsScreen },
 });
-
-// export default class App extends React.Component {
-//   render() {
-//     return (
-    
-      
-//       <View style={styles.container}>
-       
-//         {/* <Text>Boom Boom Boom Boom</Text> */}
-       
-//       </View>
-   
-//     );
-//   }
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });

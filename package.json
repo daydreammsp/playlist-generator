@@ -13,14 +13,20 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
+    "server": "nodemon --watch server server/server.js",
     "test": "jest"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "expo": "^27.0.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
     "react": "16.3.1",
-    "react-native": "~0.55.2"
+    "react-native": "~0.55.2",
+    "react-navigation": "^2.2.5"
   }
 }
