@@ -6,7 +6,7 @@ class HomeScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Page 1</Text>
+        <Text>Page 1 </Text>
       </View>
     );
   }
