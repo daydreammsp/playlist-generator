@@ -28,6 +28,7 @@
     "pg": "^7.4.3",
     "react": "16.3.1",
     "react-native": "~0.55.2",
+    "react-native-deck-swiper": "^1.5.16",
     "react-native-logger": "^1.0.3",
     "react-navigation": "^2.2.5",
     "react-redux": "^5.0.7",
